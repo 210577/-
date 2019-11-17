@@ -44,9 +44,6 @@ elif func == '3':
             a =  9999999999
         return a
 
-print(ef(3))
-print(ef(1))
-print(ef(0))
 title("만능 그래프 그리기 v2.0")
 setup(width = 900,height = 900)
 speed(0)
