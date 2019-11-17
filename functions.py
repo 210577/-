@@ -15,7 +15,7 @@ def polynomial(tier,arr):
 def irrational(a,b,c,d):
     while True:
         a = input("\"y = a√(bx + c) + d\"에서 a의 값을 입력해 주세요.")
-        if a.isalpha() == True:
+        if a.isalpha() == False:
             break
     while True:
         b = input("\"y = a√(bx + c) + d\"에서 b의 값을 입력해 주세요.")
